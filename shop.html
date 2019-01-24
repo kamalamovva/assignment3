@@ -1,80 +1,76 @@
-<!doctype html>
-<html lang="en">
- <head>
-  <title>Document</title>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
  </head>
- <body>
- <style type="text/css">
- h4{margin-left:200px;margin-top:150px}
- h5{margin-left:120px}
-    #uniq{margin-left:120px}
-	table,td{border:solid 1px;border-collapse:collapse}
- </style>
- <h4>Product Details</h4>
-  <table id="uniq">	
+   <body>  
+<div>
+
+<div>
+	<form action="http://cart.php" method="get" target="_blank" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page. \nAre you sure?&quot;);} catch (e) {return false;}">
+	<table style="width:100%">
   <tr>
-	<td>Product</td>
-	<td>Unit Price</td>
-	<td>Qty</td>
+    <th>Product</th>
+    <th>Unit Price</th> 
+    <th>Qty</th>
   </tr>
   <tr>
-	<td>USB Pendrive</td>
-	<td>300</td>
-	<td><input type="text" name=""></td>
-  </tr>
+    <td>USB Pendrive</td>
+    <td>300</td>
+    <td><input type="text" name="a1">
+  </td></tr>
   <tr>
-	<td>Wireless Mouse</td>
-	<td>200</td>
-	<td><input type="text" name=""></td>
-  </tr>
+    <td>Wireless Mouse</td>
+    <td>200</td>
+    <td><input type="text" name="a1">
+  </td></tr>
   <tr>
-	<td>Keyboard</td>
-	<td>400</td>
-	<td><input type="text" name=""></td>
-  </tr>
+    <td>Keyboard</td>
+    <td>400</td>
+    <td><input type="text" name="a1">
+  </td></tr>
   <tr>
-	<td>Laptop</td>
-	<td>33000</td>
-	<td><input type="text" name=""></td>
-  </tr>
-  </table>
-  <h5>Please Fill he following details also</h5>
-  <table>
-  <tr>
-	<td>Name</td>
-	<td>:</td>
-	<td><input type="text" name=""></td>
-  </tr>
-  <tr>
-	<td>Gender</td>
-	<td>:</td>
-	<td><input type="radio" name="m" value="male">Male
-	    <input type="radio" name="m" value="female">Female
-	</td>
-  </tr>
-  <tr>
-	<td>Address</td>
-	<td>:</td>
-	<td><textarea name="" rows="" cols=""></textarea></td>
-  </tr>
-  <tr>
-	<td>Phonenum</td>
-	<td>:</td>
-	<td><input type="text" name=""></td>
-  </tr>
-   <tr>
-	<td>Payment Option</td>
-	<td>:</td>
-	<td><input type="radio" name="cod">Cash on delivery<br>
-	    <input type="radio" name="ib">Internet banking<br>
-		<input type="radio" name="cd">Credit/Debit<br>
-	</td>
-  </tr>
-  <tr>
-	<td></td>
-	<td></td>
-	<td><input type="submit" value="submit"></td>
-  </tr>
-  </table>
- </body>
-</html>
+    <td>Laptop</td>
+    <td>33000</td>
+    <td><input type="text" name="a1">
+  </td></tr>
+</table>
+<br>
+Name:    
+<input type="text" name="name"><br>
+<br>
+Gender:
+
+<form target="_blank" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page. \nAre you sure?&quot;);} catch (e) {return false;}">
+	<label>
+      <input type="radio" name="optradio" checked>Male
+    </label>
+    <label>
+      <input type="radio" name="optradio">Female
+    </label>
+    
+</form> <br>
+<br>
+Address:  
+<textarea rows="4" cols="50">
+</textarea><br>
+<br>
+Phone Number:
+<input type="text" name="phno"><br>
+<br>
+Type of Payment you opted:
+
+<form target="_blank" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page. \nAre you sure?&quot;);} catch (e) {return false;}">
+    <label>
+      <input type="radio" name="optradio" checked>Cash On Delivary
+    </label>
+    <label>
+      <input type="radio" name="optradio">Internet Banking
+    </label>
+    <label>
+      <input type="radio" name="optradio">Credit/Debit
+    </label>
+	
+</form> <br>
+</form></div>
+</div></body></html>
